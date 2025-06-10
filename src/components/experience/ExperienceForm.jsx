@@ -1,7 +1,6 @@
 import React from 'react'
 import Input from "../Input";
-// import "./ExperienceForm.css";
-
+import "../../styles/ExperienceForm.css";
 const ExperienceForm = ({experience, setExperience}) => {
     const handleChange = (index, value) =>{
         const key = e.target.getAttribute('data-key');

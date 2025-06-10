@@ -1,0 +1,15 @@
+.education-preview {
+  background: var(--section-bg);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.education-preview h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.education-preview p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}

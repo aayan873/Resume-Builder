@@ -1,5 +1,6 @@
 import React from 'react'
 // import "./ExperiencePreview.css";
+import "../../styles/ExperiencePreview.css";
 
 const ExperiencePreview = ({experience}) => {
   return (

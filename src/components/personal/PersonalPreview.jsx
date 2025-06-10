@@ -1,4 +1,5 @@
-import "./PersonalPreview.css";
+import React from "react";
+import "../../styles/PersonalPreview.css";
 
 function PersonalPreview({ formData }) {
   return (

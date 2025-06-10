@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./PersonalForm.css"; 
 import Input from "../Input";
+import "../../styles/PersonalForm.css";
 
 const PersonalForm = ({ formData, setFormData }) => {
   const handleChange = (e) => {

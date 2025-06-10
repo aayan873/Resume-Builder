@@ -1,5 +1,6 @@
 import React from "react";
 import Input from "../Input";
+import "../../styles/EducationForm.css";
 
 const EducationForm = ({ education, setEducation })=> {
   const handleChange = (index, e) => {
@@ -15,7 +16,7 @@ const EducationForm = ({ education, setEducation })=> {
   };
 
   return (
-    <div>
+    <div className="education-section">
       <h2>Education</h2>
       {education.map((edu, index) => (
         <div key={index} className="education-entry">
