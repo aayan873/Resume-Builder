@@ -58,6 +58,31 @@ const example = {
         id: uniqid(),
       },
     ],
+
+    projects: [
+      {
+        name: "Smart Budget Planner",
+        description:
+          "Developed a responsive web application to help users manage monthly expenses and visualize spending patterns using interactive charts.",
+        technologies: ["React", "Chart.js", "CSS"],
+        startDate: "01/2023",
+        endDate: "04/2023",
+        isCollapsed: true,
+        isHidden: false,
+        id: uniqid(),
+      },
+      {
+        name: "WeatherCast App",
+        description:
+          "Built a weather forecast app that uses OpenWeatherMap API to display real-time weather data based on user's location.",
+        technologies: ["JavaScript", "HTML", "API"],
+        startDate: "06/2022",
+        endDate: "08/2022",
+        isCollapsed: true,
+        isHidden: false,
+        id: uniqid(),
+      },
+    ],
   },
 };
 

@@ -1,7 +1,25 @@
 .education-section {
   padding: 20px;
-  background-color: var(--section-bg);
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.06);
   margin-bottom: 30px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
 }
+
+.education-section h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.education-entry {
+  margin-bottom: 20px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+}
+
+.input {
+  margin-bottom: 16px;
+}
+

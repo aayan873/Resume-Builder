@@ -1,22 +1,24 @@
 .personal {
-  background-color: var(--resume-accent);
-  color: var(--header-color);
+  background-color: var(--resume-accent, #0a66c2);
+  color: var(--header-color, white);
   padding: 30px;
-  border-radius: 10px;
-  margin-bottom: 20px;
+  border-radius: 12px;
+  text-align: center;
 }
 
 .name {
-  text-align: center;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .contact {
-  margin-top: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   gap: 10px;
+  margin-top: 20px;
+  font-size: 14px;
 }
 
 .contact i {

@@ -6,11 +6,15 @@ function EducationInfo({ education }) {
     <div className="education-preview">
       <h2>Education</h2>
       {education.map((edu, index) => (
-        <div key={index}>
+        <div key={index} className="education-item">
+          <div className="dates-location">
+            <p>{edu.startDate} - {edu.endDate}</p>
+            <p>{edu.location}</p>
+          </div>
+          <div className="others">
           <h3>{edu.school}</h3>
           <p>{edu.degree}</p>
-          <p>{edu.dates}</p>
-          <p>{edu.location}</p>
+          </div>  
         </div>
       ))}
     </div>

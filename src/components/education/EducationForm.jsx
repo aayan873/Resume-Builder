@@ -38,15 +38,26 @@ const EducationForm = ({ education, setEducation })=> {
             onChange={(e) => handleChange(index, e)}
             data-key="degree"
           />
-          <Input
-            type="text"
-            id={`dates-${index}`}
-            labelText="Duration"
-            placeholder="e.g. 2020 - 2024"
-            value={edu.dates}
+          <Input 
+            type = "text"
+            id={'StartDate-${index}'}
+            labelText="Start Date"
+            placeholder="e.g. January 2020"
+            value = {edu.startDate}
             onChange={(e) => handleChange(index, e)}
-            data-key="dates"
+            data-key="StartDate"
           />
+
+          <Input
+            type="text" 
+            id={`endDate-${index}`}
+            labelText="End Date"
+            placeholder="e.g. December 2023"
+            value={edu.endDate}
+            onChange={(e) => handleChange(index, e)}
+            data-key="endDate"
+          />
+
           <Input
             type="text"
             id={`location-${index}`}

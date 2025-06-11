@@ -1,0 +1,35 @@
+.project-preview {
+  margin-top: 30px;
+}
+
+.project-preview h2 {
+  font-size: 22px;
+  color: #0a66c2;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.project-preview h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.project-preview p {
+  font-size: 16px;
+  color: #444;
+}
+
+.project-preview a {
+  color: #0a66c2;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.project-preview a:hover {
+  text-decoration: none;
+}
+.project-item{
+    margin-top: 20px;
+}
