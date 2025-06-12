@@ -7,8 +7,7 @@ Users can input personal, educational, professional, and project details, and se
 
 ## 🔗 Live Demo
 
-👉 [**View Live**](https://your-live-site-link.vercel.app)  
-_Replace this with your deployed site URL_
+👉 [**View Live**](https://resume-builder-ruddy-seven.vercel.app/)
 
 ---
 
@@ -33,5 +32,4 @@ _Replace this with your deployed site URL_
 - **localStorage**
 - **Vite**
 - **Vercel**
-
 
