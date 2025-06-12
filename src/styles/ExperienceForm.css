@@ -2,7 +2,6 @@
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
-  margin-bottom: 30px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
 }
 
@@ -18,8 +17,3 @@
   background-color: #fafafa;
   border: 1px solid #ddd;
 }
-
-.input {
-  margin-bottom: 16px;
-}
-

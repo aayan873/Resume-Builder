@@ -2,7 +2,7 @@ import { useState } from "react";
 import Input from "../Input";
 import "../../styles/PersonalForm.css";
 
-const PersonalForm = ({ formData, setFormData }) => {
+const PersonalForm = ({ formData, setFormData}) => {
   const handleChange = (e) => {
     const key = e.target.getAttribute('data-key');
     setFormData({...formData, [key]: e.target.value,});

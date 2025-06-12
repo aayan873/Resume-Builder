@@ -6,19 +6,33 @@ import ProjectForm from "./project/ProjectForm";
 import React from 'react';
 import "../styles/ResumeInput.css";
 
-function ResumeInput({ personalInfo, setPersonalInfo, education, setEducation, experience, setExperience, addEducation, addExperience, projects, setProjects, addProject }) {
+function ResumeInput({
+  personalInfo,
+  setPersonalInfo,
+  education,
+  setEducation,
+  experience,
+  setExperience,
+  addEducation,
+  addExperience,
+  projects,
+  setProjects,
+  addProject,
+  resetAll,
+  loadExample,
+  handlePrint
+}) {
   return (
     <div className="resume-input">
-        <PersonalForm formData={personalInfo} setFormData={setPersonalInfo} />
-
-        <EducationForm education={education} setEducation={setEducation} /> 
-        <button onClick={addEducation}>Add Education</button> 
-
-        <ExperienceForm experience={experience} setExperience={setExperience} />
-        <button onClick={addExperience}>Add Experience</button>
-
-        <ProjectForm projects={projects} setProjects={setProjects} />
-        <button onClick={addProject}>Add Project</button>
+      <div className="form-buttons">
+        <button onClick={resetAll}>Reset</button>
+        <button onClick={loadExample}>Load Example</button>
+        <button onClick={handlePrint}> Print / Save as PDF</button>
+      </div>
+      <PersonalForm formData={personalInfo} setFormData={setPersonalInfo} />
+      <EducationForm education={education} setEducation={setEducation} addEducation={addEducation} /> 
+      <ExperienceForm experience={experience} setExperience={setExperience} addExperience={addExperience} />
+      <ProjectForm projects={projects} setProjects={setProjects} addProject={addProject} />
     </div>
   );
 }

@@ -1,20 +1,8 @@
-@media print {
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
-  .app {
-    display: block;
-  }
-
-  .resume-input-form {
-    display: none;
-  }
-
-  .resume-preview {
-    width: 100%;
-    box-shadow: none;
-    padding: 0;
-  }
+.resume-preview {
+  background-color: white;
+  padding: 40px;
+  border-radius: 2px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Noto Sans', sans-serif;
+  width: 60%;
 }

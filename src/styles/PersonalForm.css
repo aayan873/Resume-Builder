@@ -1,32 +1,17 @@
-.form-section {
+.personal-details {
   padding: 20px;
-  background-color: var(--section-bg, #fff);
-  border-radius: 10px;
-  margin-bottom: 30px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
 }
 
-.form-section h2 {
+.personal-details h2 {
   font-size: 20px;
   margin-bottom: 16px;
 }
 
-.input {
-  margin-bottom: 16px;
+.input label{
+  font-size: 18px;
 }
 
-.input label {
-  display: block;
-  font-weight: 500;
-  margin-bottom: 6px;
-  font-size: 14px;
-}
-
-.input input,
-.input textarea {
-  width: 100%;
-  padding: 10px;
-  font-size: 1rem;
-  border-radius: 6px;
-  border: 1px solid #ccc;
+.input span{
+  font-size: 16px;
 }

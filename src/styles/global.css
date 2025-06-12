@@ -8,7 +8,7 @@ button {
   color: white;
   padding: 8px 14px;
   font-size: 14px;
-  border: none;
+  border: black 1px solid;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
@@ -16,4 +16,76 @@ button {
 
 button:hover {
   background-color: #004f9e;
+  transition: background-color 0.3s ease;
+}
+
+.input input,
+.input textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+
+.input {
+  margin-bottom: 16px;
+}
+
+.input label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.collapsed {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collapsed button {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+.collapsed button:hover {
+  background-color: #e0e0e0;
+}
+
+@media print {
+  body {
+    background: white;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+
+  .resume-input{
+    display: none !important;
+  }
+
+  .app {
+    display: block;
+  }
+  .resume-preview {
+    box-shadow: none;
+    padding: 0;
+    width: 100%;
+    border-radius: 0; 
+  }
 }
