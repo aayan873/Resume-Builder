@@ -1,12 +1,37 @@
-# React + Vite
+# 📝 Resume Builder – React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully dynamic and responsive Resume Builder built with **React**.  
+Users can input personal, educational, professional, and project details, and see a live preview of their resume — which can be printed or saved as a PDF.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+👉 [**View Live**](https://your-live-site-link.vercel.app)  
+_Replace this with your deployed site URL_
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- Personal Info form (name, email, phone, address)
+- Add/Edit multiple Education entries
+- Add/Edit multiple Work Experience entries
+- Add/Edit multiple Projects
+- Live resume preview
+- Auto-save with `localStorage`
+- Reset and Load Example data
+- One-click Print or Save as PDF
+- Clean, print-ready layout (A4-optimized)
+
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **CSS**
+- **localStorage**
+- **Vite**
+- **Vercel**
+
+
